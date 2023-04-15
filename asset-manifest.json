@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/find-the-iss/static/css/main.c48349ab.css",
+    "main.js": "/find-the-iss/static/js/main.4f2e74fa.js",
+    "static/js/787.325527b4.chunk.js": "/find-the-iss/static/js/787.325527b4.chunk.js",
+    "index.html": "/find-the-iss/index.html",
+    "main.c48349ab.css.map": "/find-the-iss/static/css/main.c48349ab.css.map",
+    "main.4f2e74fa.js.map": "/find-the-iss/static/js/main.4f2e74fa.js.map",
+    "787.325527b4.chunk.js.map": "/find-the-iss/static/js/787.325527b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c48349ab.css",
+    "static/js/main.4f2e74fa.js"
+  ]
+}
