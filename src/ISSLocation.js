@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./styles.css";
-import GoogleMap from "./GoogleMap";
 
 class ISSLocation extends Component {
     constructor(props) {
