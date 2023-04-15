@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "./styles.css";
+import ISSMap from "./ISSMap";
 
 class ISSLocation extends Component {
     constructor(props) {
@@ -53,6 +53,12 @@ class ISSLocation extends Component {
           <p className="latitude">Latitude: {location.latitude}</p>
           <p className="longitude">Longitude: {location.longitude}</p>
         </div>
+        {location.latitude && location.longitude && (
+          <ISSMap
+            latitude={location.latitude}
+            longitude={location.longitude}
+          />
+        )}
         <span className="refresh" onClick={this.refreshLocation}>
           Refresh location
         </span>

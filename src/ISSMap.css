@@ -1,0 +1,9 @@
+.iss-map {
+    height: 40vh;
+    width: 60vw;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
