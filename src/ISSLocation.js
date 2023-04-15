@@ -30,7 +30,7 @@ class ISSLocation extends Component {
     }
 
     async fetchData() {
-        const response = await axios.get("http://api.open-notify.org/iss-now.json");
+        const response = await axios.get("https://api.open-notify.org/iss-now.json");
         this.setState({
         location: response.data.iss_position,
         });
