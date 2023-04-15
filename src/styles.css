@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F2F2F2;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #2D3E50;
+}
+
+.location {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.latitude {
+  margin-bottom: 0.5rem;
+}
+
+.longitude {
+  margin-top: 0.5rem;
+}
+
+.refresh {
+  margin-top: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #2980B9;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.refresh:hover {
+  color: #1ABC9C;
+}
