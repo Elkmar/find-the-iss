@@ -1,5 +1,5 @@
 import React from "react";
-import ISSLocation from "./ISSLocation";
+import ISSLocation from "../components/ISSLocation";
 import "./App.css";
 
 const App = () => {
