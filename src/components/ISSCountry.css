@@ -1,4 +1,21 @@
+/* ISSCountry specific styles */
+/* Note: Most styling is now handled by the parent components and global App.css */
+/* to ensure consistency across the dark theme */
+
 .country-info {
-    margin-top: 0;
-  }
-  
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--success);
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.country-info::before {
+  content: '📍';
+  font-size: 1.2rem;
+}
