@@ -9,7 +9,7 @@ const ISSCountry = ({ latitude, longitude }) => {
     const fetchCountryData = async () => {
       try {
         const response = await axios.get(
-          `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=b21a7f1223244c2aa53218722f644ce1&language=en`
+          `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=${process.env.REACT_APP_OPENCAGE_API_KEY}&language=en`
         );
         const { components } = response.data.results[0];
         const country = components.country;
